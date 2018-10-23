@@ -17,8 +17,8 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" spacing="21" translatesAutoresizingMaskIntoConstraints="NO" id="JaC-bY-SY4">
-                                <rect key="frame" x="110" y="193" width="155" height="281.5"/>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="JaC-bY-SY4">
+                                <rect key="frame" x="110" y="206" width="155" height="255.5"/>
                                 <subviews>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0iE-KI-c6m">
                                         <rect key="frame" x="0.0" y="0.0" width="155" height="155"/>
@@ -28,13 +28,13 @@
                                         </connections>
                                     </button>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tF9-k0-P8M">
-                                        <rect key="frame" x="56.5" y="176" width="42" height="20.5"/>
+                                        <rect key="frame" x="56.5" y="163" width="42" height="20.5"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1TS-hR-tHL">
-                                        <rect key="frame" x="45.5" y="217.5" width="64" height="64"/>
+                                        <rect key="frame" x="45.5" y="191.5" width="64" height="64"/>
                                         <constraints>
                                             <constraint firstAttribute="width" secondItem="1TS-hR-tHL" secondAttribute="height" multiplier="1:1" id="FaN-Ye-rhM"/>
                                             <constraint firstAttribute="height" constant="64" id="rbY-bR-MP0"/>
@@ -87,7 +87,7 @@
                                                     <action selector="actionStartPlay:" destination="Tui-Lu-gmA" eventType="touchUpInside" id="SLF-Lf-FZZ"/>
                                                 </connections>
                                             </button>
-                                            <button opaque="NO" contentMode="scaleAspectFit" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qbI-PF-ADo">
+                                            <button opaque="NO" contentMode="scaleAspectFit" contentHorizontalAlignment="center" contentVerticalAlignment="center" adjustsImageWhenDisabled="NO" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qbI-PF-ADo">
                                                 <rect key="frame" x="167.5" y="0.0" width="167.5" height="162.5"/>
                                                 <state key="normal" image="Fast"/>
                                                 <connections>
@@ -99,14 +99,14 @@
                                     <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="ccK-8x-WVF">
                                         <rect key="frame" x="0.0" y="162.5" width="335" height="162"/>
                                         <subviews>
-                                            <button opaque="NO" contentMode="scaleAspectFit" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pDj-ay-gM4">
+                                            <button opaque="NO" contentMode="scaleAspectFit" contentHorizontalAlignment="center" contentVerticalAlignment="center" adjustsImageWhenDisabled="NO" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pDj-ay-gM4">
                                                 <rect key="frame" x="0.0" y="0.0" width="167.5" height="162"/>
                                                 <state key="normal" image="HighPitch"/>
                                                 <connections>
                                                     <action selector="actionStartPlay:" destination="Tui-Lu-gmA" eventType="touchUpInside" id="WC1-OP-a8n"/>
                                                 </connections>
                                             </button>
-                                            <button opaque="NO" contentMode="scaleAspectFit" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="peT-dP-JLO">
+                                            <button opaque="NO" contentMode="scaleAspectFit" contentHorizontalAlignment="center" contentVerticalAlignment="center" adjustsImageWhenDisabled="NO" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="peT-dP-JLO">
                                                 <rect key="frame" x="167.5" y="0.0" width="167.5" height="162"/>
                                                 <state key="normal" image="LowPitch"/>
                                                 <connections>
@@ -118,14 +118,14 @@
                                     <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="kV2-83-kI0">
                                         <rect key="frame" x="0.0" y="324.5" width="335" height="162.5"/>
                                         <subviews>
-                                            <button opaque="NO" contentMode="scaleAspectFit" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eE5-HN-by6">
+                                            <button opaque="NO" contentMode="scaleAspectFit" contentHorizontalAlignment="center" contentVerticalAlignment="center" adjustsImageWhenDisabled="NO" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eE5-HN-by6">
                                                 <rect key="frame" x="0.0" y="0.0" width="167.5" height="162.5"/>
                                                 <state key="normal" image="Echo"/>
                                                 <connections>
                                                     <action selector="actionStartPlay:" destination="Tui-Lu-gmA" eventType="touchUpInside" id="YGP-mU-Av9"/>
                                                 </connections>
                                             </button>
-                                            <button opaque="NO" contentMode="scaleAspectFit" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="UDF-v7-96e">
+                                            <button opaque="NO" contentMode="scaleAspectFit" contentHorizontalAlignment="center" contentVerticalAlignment="center" adjustsImageWhenDisabled="NO" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="UDF-v7-96e">
                                                 <rect key="frame" x="167.5" y="0.0" width="167.5" height="162.5"/>
                                                 <state key="normal" image="Reverb"/>
                                                 <connections>

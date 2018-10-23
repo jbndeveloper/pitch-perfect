@@ -29,13 +29,41 @@ class PlaySoundsViewController: UIViewController {
     }
     
     //MARK: - IBOutlet
-    @IBOutlet weak var btnSlow: UIButton!
-    @IBOutlet weak var btnFast: UIButton!
-    @IBOutlet weak var btnLowPitch: UIButton!
-    @IBOutlet weak var btnHighPitch: UIButton!
-    @IBOutlet weak var btnEcho: UIButton!
-    @IBOutlet weak var btnReverb: UIButton!
-    @IBOutlet weak var btnStop: UIButton!
+    @IBOutlet weak var btnSlow: UIButton! {
+        didSet {
+            btnSlow.imageView?.contentMode = UIView.ContentMode.scaleAspectFit
+        }
+    }
+    @IBOutlet weak var btnFast: UIButton! {
+        didSet {
+            btnFast.imageView?.contentMode = UIView.ContentMode.scaleAspectFit
+        }
+    }
+    @IBOutlet weak var btnLowPitch: UIButton! {
+        didSet {
+            btnLowPitch.imageView?.contentMode = UIView.ContentMode.scaleAspectFit
+        }
+    }
+    @IBOutlet weak var btnHighPitch: UIButton! {
+        didSet {
+            btnHighPitch.imageView?.contentMode = UIView.ContentMode.scaleAspectFit
+        }
+    }
+    @IBOutlet weak var btnEcho: UIButton! {
+        didSet {
+            btnEcho.imageView?.contentMode = UIView.ContentMode.scaleAspectFit
+        }
+    }
+    @IBOutlet weak var btnReverb: UIButton! {
+        didSet {
+            btnReverb.imageView?.contentMode = UIView.ContentMode.scaleAspectFit
+        }
+    }
+    @IBOutlet weak var btnStop: UIButton! {
+        didSet {
+            btnStop.imageView?.contentMode = UIView.ContentMode.scaleAspectFit
+        }
+    }
     
     //MARK: - Lifecycle
     override func viewDidLoad() {
